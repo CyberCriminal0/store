@@ -29,7 +29,7 @@ public class item{
 	return this.stock;
     }
 
-    public int returnNum(){
+    public int getNum(){
 
 	return this.num;
     }

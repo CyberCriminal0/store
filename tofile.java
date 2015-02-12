@@ -4,7 +4,7 @@ import java.io.*;
 
 public class tofile{
 
-    public void to(user c){
+    public void to(item c){
 
 	try
 	    {

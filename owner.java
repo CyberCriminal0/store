@@ -7,15 +7,15 @@ public class owner{
 
 	System.out.println("Welcome admin!");
 
-	System.out.println("What would you like to do?");
-
 	Scanner scan = new Scanner(System.in);
 
 	boolean running = true;
 
 	while(running){
 
-	System.out.println("1.\tCreate new item\n2.\tEdit an item\n3.\tDelete an item\n4.\tQuit");
+	    System.out.println("What would you like to do?");
+
+	    System.out.println("1.\tCreate new item\n2.\tEdit an item\n3.\tDelete an item\n4.\tQuit");
 
 	int choice = scan.nextInt();
 
@@ -47,8 +47,6 @@ public class owner{
 
 	default:
 
-
-
 	    break;
 
 	}
@@ -59,6 +57,7 @@ public class owner{
 
 	public void itemload(){
 
+	    
 
 	}
 
