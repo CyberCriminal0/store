@@ -1,3 +1,5 @@
+//Store class, handles all user interaction
+
 import java.util.Scanner;
 public class store{
 
@@ -42,6 +44,7 @@ public class store{
 	     }
 
 	}
+
 
 
 
