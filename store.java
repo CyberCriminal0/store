@@ -30,8 +30,18 @@ public class store{
 		returningB = false;
 
 	    }
+	
+	if(returningB){
 
-    }
+	    System.out.println("Placeholder!!");
+	
+	}else{
+
+	    System.out.println("Hello " + username + " here is what we have in stock...");
+
+	     }
+
+	}
 
 
 
