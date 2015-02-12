@@ -34,6 +34,4 @@ public class item{
 	return this.num;
     }
 
-
-
 }
