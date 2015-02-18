@@ -1,10 +1,18 @@
+/**An item in a store 
+@author Jack Eller
+*/
 public class item{
 
-    String name;
-    int price, stock, num;
+  /**Name of Item*/
+	public String name;
+  /**Number of Items*/
+    	int stock;
+  /**Unique ID*/
+    	int num;
+  /**Cost of Item*/
+    	double price;
 
-
-    public item(String name, int price, int stock){
+    public item(String name, double price, int stock){
 
 	this.name = name;
 	this.price = price;
@@ -19,7 +27,7 @@ public class item{
 	return this.name;
     }
 
-    public int getPrice(){
+    public double getPrice(){
 	
 	return this.price;
     }
