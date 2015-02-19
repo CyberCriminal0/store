@@ -1,10 +1,21 @@
-public class item{
+/**An item in a store 
+@author Jack Eller
+*/
 
-    String name;
-    int price, stock, num;
+import java.io.Serializable;
 
+public class item implements Serializable{
 
-    public item(String name, int price, int stock){
+  /**Name of Item*/
+	public String name;
+  /**Number of Items*/
+    	public int stock;
+  /**Unique ID*/
+    	public int num;
+  /**Cost of Item*/
+    	public double price;
+
+    public item(String name, double price, int stock){
 
 	this.name = name;
 	this.price = price;
@@ -19,7 +30,7 @@ public class item{
 	return this.name;
     }
 
-    public int getPrice(){
+    public double getPrice(){
 	
 	return this.price;
     }
