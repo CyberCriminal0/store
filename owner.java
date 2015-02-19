@@ -53,8 +53,6 @@ public class owner{
 
 		    to.to(item);
 		    
-
-		    
 		}else{
 
 		    System.out.println("You said " + choiceForNew + " returning to menu...");

@@ -1,7 +1,10 @@
 /**An item in a store 
 @author Jack Eller
 */
-public class item{
+
+import java.io.Serializable;
+
+public class item implements Serializable{
 
   /**Name of Item*/
 	public String name;
