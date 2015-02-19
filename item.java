@@ -6,11 +6,11 @@ public class item{
   /**Name of Item*/
 	public String name;
   /**Number of Items*/
-    	int stock;
+    	public int stock;
   /**Unique ID*/
-    	int num;
+    	public int num;
   /**Cost of Item*/
-    	double price;
+    	public double price;
 
     public item(String name, double price, int stock){
 

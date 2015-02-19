@@ -19,11 +19,47 @@ public class owner{
 
 	int choice = scan.nextInt();
 
+	scan.nextLine();
+
 	switch(choice){
 	    
 	case 1: 
 
 	    System.out.println("Create item");
+
+	    System.out.println("Item name?");
+
+	    String itemname = scan.nextLine();
+
+	    System.out.println("Item quantity?");
+
+	    int itemquantity = scan.nextInt();
+
+	    System.out.println("Item price?");
+
+	    double itemprice = scan.nextDouble();
+
+	    scan.nextLine();
+
+	    System.out.println("\n\t" + itemquantity + " " + itemname + " at " + itemprice + " each" + "\n\t Is this correct? y/n \n"); 
+
+	    String choiceForNew = scan.nextLine();
+
+	    if(choiceForNew.equalsIgnoreCase("y")){
+		    
+		    item item = new item(itemname, itemprice, itemquantity);
+
+		    tofile to = new tofile();
+
+		    to.to(item);
+		    
+
+		    
+		}else{
+
+		    System.out.println("You said " + choiceForNew + " returning to menu...");
+
+	    }
 
 	    break;
 	    
